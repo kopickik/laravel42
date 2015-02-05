@@ -1,0 +1,327 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"i",
+				"is	Str"
+			],
+			[
+				"am",
+				"bbcode_add_element"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"close",
+				"PHP Class browser: Close Browser"
+			],
+			[
+				"php",
+				"PHP Class browser: Open Browser"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"rec",
+				"PHP Class browser: (Re)Create Database"
+			],
+			[
+				"recre",
+				"PHP Class browser: (Re)Create Database"
+			],
+			[
+				"open",
+				"PHP Class browser: Open Browser"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"disab",
+				"Package Control: Disable Package"
+			],
+			[
+				"sublim",
+				"SublimeCodeIntel: Reset"
+			],
+			[
+				"markd",
+				"Set Syntax: Markdown"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"html",
+				"Set Syntax: HTML"
+			],
+			[
+				"prettify",
+				"HTMLPrettify"
+			],
+			[
+				"htmlpr",
+				"HTMLPrettify"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"blade",
+				"Set Syntax: PHP - Laravel Blade"
+			],
+			[
+				"packag",
+				"Package Control: Install Package"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			" import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/kkopicki/Code/htdocs/larabook",
+		"/Users/kkopicki/Code/htdocs/larabook/tests",
+		"/Users/kkopicki/Code/htdocs/larabook/tests/functional"
+	],
+	"file_history":
+	[
+		"/Users/kkopicki/Code/htdocs/larabook/phpclass.sublime-classdb",
+		"/Users/kkopicki/Code/htdocs/larabook/tests/functional/SignUpCept.php",
+		"/Users/kkopicki/Code/htdocs/larabook/tests/functional.suite.yml",
+		"/Users/kkopicki/Code/htdocs/larabook/app/controllers/PagesController.php",
+		"/Users/kkopicki/Code/htdocs/larabook/larabook.sublime-project",
+		"/Users/kkopicki/Code/htdocs/larabook/app/views/pages/home.blade.php",
+		"/Users/kkopicki/Code/htdocs/larabook/vendor/facebook/webdriver/lib/WebDriverCapabilities.php",
+		"/Users/kkopicki/.homestead/Homestead.yaml",
+		"/Users/kkopicki/Code/tmp/Vagrantfile",
+		"/Users/kkopicki/Code/htdocs/Homestead/Vagrantfile",
+		"/Users/kkopicki/Downloads/vdmlbmsv.dms",
+		"/Users/kkopicki/Documents/home.html",
+		"/Users/kkopicki/Code/htdocs/gto2/sites/default/settings.php",
+		"/Users/kkopicki/Code/htdocs/Homestead/Vagrantfile2",
+		"/Users/kkopicki/Code/tmp/poop.html",
+		"/Users/kkopicki/.homestead/after.sh",
+		"/etc/hosts",
+		"/usr/local/var/www/gto2/sites/default/settings.php",
+		"/usr/local/etc/nginx/nginx.conf",
+		"/Users/kkopicki/Code/htdocs/Homestead/homestead",
+		"/usr/local/etc/nginx/nginx.conf.default",
+		"/usr/local/var/www/404.html",
+		"/Users/kkopicki/Library/Application Support/Sublime Text 2/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
+		"/Users/kkopicki/Code/htdocs/larabook/public/css/main.css",
+		"/Users/kkopicki/Code/htdocs/larabook/app/assets/scss/main.scss",
+		"/Users/kkopicki/Code/htdocs/larabook/Gulpfile.js",
+		"/Users/kkopicki/Code/htdocs/larabook/app/views/layouts/partials/nav.blade.php",
+		"/Users/kkopicki/Code/htdocs/larabook/app/routes.php",
+		"/Users/kkopicki/Code/htdocs/larabook/.gitignore",
+		"/Users/kkopicki/Code/htdocs/larabook/app/views/layouts/default.blade.php",
+		"/Users/kkopicki/Code/htdocs/larabook/.env.local.php",
+		"/Users/kkopicki/Code/htdocs/larabook/app/config/database.php",
+		"/Users/kkopicki/Code/htdocs/larabook/config.rb",
+		"/Users/kkopicki/.zshrc",
+		"/Users/kkopicki/Code/htdocs/larabook/public/css/main.scss.map",
+		"/Users/kkopicki/Code/htdocs/larabook/node_modules/autoprefixer/README.md",
+		"/Users/kkopicki/Code/htdocs/larabook/package.json",
+		"/Users/kkopicki/Code/htdocs/larabook/composer.json",
+		"/Users/kkopicki/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/kkopicki/Code/htdocs/larabook/app/config/local/database.php",
+		"/Users/kkopicki/Code/htdocs/larabook/app/views/hello.php",
+		"/Users/kkopicki/Code/htdocs/larabook/app/config/app.php",
+		"/Users/kkopicki/Code/htdocs/larabook/app/config/local/app.php",
+		"/etc/paths",
+		"/Users/kkopicki/Code/htdocs/precise.dev/index.html",
+		"/Users/kkopicki/Code/htdocs/Homestead/readme.md",
+		"/Users/kkopicki/Code/htdocs/Vagrantfile",
+		"/etc/php.ini",
+		"/Users/kkopicki/Code/htdocs/install.sh",
+		"/Users/kkopicki/Code/htdocs/html/blah.html",
+		"/Users/kkopicki/.aliases",
+		"/Users/kkopicki/Code/asdf.txt"
+	],
+	"find":
+	{
+		"height": 30.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"th",
+			"drupal",
+			"apache",
+			"pass",
+			"password",
+			"gto",
+			"host",
+			"site",
+			"sites",
+			"www",
+			"user",
+			"gulp",
+			"debug",
+			"extension=",
+			"example",
+			"alias"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 30.0
+	},
+	"input":
+	{
+		"height": 34.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "larabook.sublime-project",
+	"replace":
+	{
+		"height": 56.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 187.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
