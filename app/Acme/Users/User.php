@@ -5,6 +5,7 @@ use Illuminate\Auth\UserInterface;
 use Illuminate\Auth\Reminders\RemindableTrait;
 use Illuminate\Auth\Reminders\RemindableInterface;
 use Laracasts\Commander\Events\EventGenerator;
+use Acme\Users\Events\UserRegistered;
 use Eloquent, Hash;
 
 class User extends Eloquent implements UserInterface, RemindableInterface {
@@ -40,7 +41,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 		$user = new static(compact('username','email','password'));
 
 		// raise an event
-		$user->raise(new UserRegistered);
+		$user->raise(new UserRegistered($user));
 
 		return $user;
 		

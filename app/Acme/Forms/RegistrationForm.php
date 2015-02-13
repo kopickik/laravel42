@@ -1,6 +1,4 @@
-<?php 
-
-namespace Acme\Forms;
+<?php namespace Acme\Forms;
 
 use Laracasts\Validation\FormValidator;
 
