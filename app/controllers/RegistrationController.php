@@ -2,30 +2,29 @@
 
 use Acme\Forms\RegistrationForm;
 use Acme\Registration\RegisterUserCommand;
-use Laracasts\Commander\CommandBus;
+use Acme\Core\CommandBus;
 
-class RegistrationController extends \BaseController {
+class RegistrationController extends BaseController {
 
-	/*
-	* @var RegistrationForm
-	*
-	*/
-	private $registrationForm;
+    /**
+     * @var RegistrationForm
+     */
+    private $registrationForm;
 
-	/*
-	* @var CommandBus
-	*
-	*/
-	private $commandBus;
+    /**
+     * Constructor
+     *
+     * @param RegistrationForm $registrationForm
+     */
+    function __construct(RegistrationForm $registrationForm)
+    {
+        $this->registrationForm = $registrationForm;
 
-	function __construct(CommandBus $commandBus, RegistrationForm $registrationForm)
-	{
-		$this->registrationForm = $registrationForm;
-		$this->commandBus = $commandBus;
-	}
+        $this->beforeFilter('guest');
+    }
 
-	/**
-	 * Show the form for creating a new resource.
+    /**
+	 * Show a form to register the user
 	 *
 	 * @return Response
 	 */
@@ -34,28 +33,23 @@ class RegistrationController extends \BaseController {
 		return View::make('registration.create');
 	}
 
-	public function store()
-	{
-		// First time through: something like this would work.
-		//$this->registrationForm->validate(Input::all());
-		//$user = User::create(
-		//	Input::only('username', 'email', 'password')
-		//	);
-		//Auth::login($user, $remember = false);
+    /**
+     * Create a new Larabook user.
+     *
+     * @return string
+     */
+    
+    public function store()
+    {
+        $this->registrationForm->validate(Input::all());
 
-		// Or extract it out to commands being sent
-		$this->registrationForm->validate(Input::all());
-		extract(Input::only('username', 'email', 'password'));
+        $user = $this->execute(RegisterUserCommand::class);
 
-		$user = $this->commandBus->execute(
-			new RegisterUserCommand($username, $email, $password)
-		);
+        Auth::login($user);
 
-		Auth::login($user, $remember = false);
+        Flash::overlay('Glad to have you as a new Larabook member!');
 
-		return Redirect::home();
-	}
-
-
+        return Redirect::home();
+    }
 
 }

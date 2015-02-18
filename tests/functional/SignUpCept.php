@@ -8,10 +8,10 @@ $I->amOnPage('/');
 $I->click('Sign Up');
 $I->seeCurrentUrlEquals('/register');
 
-$I->fillField('Username:', 'JohnDoe');
-$I->fillField('Email:', 'JohnDoe@example.com');
-$I->fillField('Password:', 'secret');
-$I->fillField('Password Confirmation:', 'secret');
+$I->fillField('Username:', 'JohnDoe2');
+$I->fillField('Email:', 'JohnDoe2@example.com');
+$I->fillField('Password:', 'secret2');
+$I->fillField('Password Confirmation:', 'secret2');
 $I->click('Register');
 
 $I->seeCurrentUrlEquals('');
