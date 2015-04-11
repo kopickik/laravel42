@@ -193,7 +193,7 @@ return array(
 		'URL'               => 'Illuminate\Support\Facades\URL',
 		'Validator'         => 'Illuminate\Support\Facades\Validator',
 		'View'              => 'Illuminate\Support\Facades\View',
-		'Flash'				=> 'Laracasts\Flash\Flash'
+		'Flash'             => 'Laracasts\Flash\Flash'
 
 	),
 
