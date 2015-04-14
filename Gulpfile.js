@@ -13,7 +13,7 @@ gulp.task('css', function() {
 		css: 'public/css',
 		sass: 'app/assets/scss',
 		images: 'app/assets/img',
-		require: ['compass', 'susy']
+		require: ['compass']
 	}))
 	.pipe(sourcemaps.init())
 	.pipe(postcss([autoprefixer({ browsers: ['last 10 version'] }) ]))
