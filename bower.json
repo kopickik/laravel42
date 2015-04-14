@@ -1,0 +1,15 @@
+{
+  "name": "larabook",
+  "version": "0.0.0",
+  "homepage": "https://github.com/kopickik/laravel42",
+  "description": "Just a laravel 4.2 app.",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
